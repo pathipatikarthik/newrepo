@@ -1,7 +1,5 @@
 name: first action
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
   
 jobs:
