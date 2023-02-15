@@ -10,6 +10,7 @@ jobs:
        - name: greet user
          run: echo "wellcome to github actions"
   test:
+     needs: build
      runs-on: ubuntu-latest
      steps:
        - uses: actions/checkout@v3
